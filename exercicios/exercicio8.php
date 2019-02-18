@@ -1,4 +1,4 @@
-<?include_once "cabecalho.php"?>
+<?php include_once "cabecalho.php"?>
 <div class="container">
     <h3 class="text-center">EXERCÍCIO 08</h3>
     <div class="text-center">
@@ -79,8 +79,8 @@ if(!empty($enviar)) {?>
         <p>Maior: <?=$maior?></p>
         <p>Diferença percentual: <?=$diferença?>%</p>
     </div>
-<?}?>
+<?php }?>
 
 </div>
 
-<?include_once "rodape.php"?>
+<?php include_once "rodape.php"?>

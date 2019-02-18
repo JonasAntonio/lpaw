@@ -1,4 +1,4 @@
-<?include_once "cabecalho.php"?>
+<?php include_once "cabecalho.php"?>
 <div class="container">
     <h3 class="text-center">EXERCÍCIO 03</h3>
     <div class="text-center">
@@ -74,8 +74,8 @@ if(!empty($enviar)) {?>
         </p>
         <p>Maior: <?=$ordenado[(count($ordenado)-1)]?></p>
     </div>
-<?}?>
+<?php }?>
 
 </div>
 
-<?include_once "rodape.php"?>
+<?php include_once "rodape.php"?>

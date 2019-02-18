@@ -1,4 +1,4 @@
-<?include_once "cabecalho.php"?>
+<?php include_once "cabecalho.php"?>
 <div class="container">
     <h3 class="text-center">Exercício 4</h3>
     <div class="text-center">
@@ -31,6 +31,6 @@ if(!empty($enviar)) {?>
     <div class="col-md-12 text-center">
         <?=exibirSucessor($num);?>
     </div>
-<?}?>
+<?php }?>
 
-<?include_once "rodape.php"?>
+<?php include_once "rodape.php"?>

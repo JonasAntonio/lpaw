@@ -1,4 +1,4 @@
-<?include_once "cabecalho.php"?>
+<?php include_once "cabecalho.php"?>
 <div class="container">
     <h3 class="text-center">Exercício 2</h3>
     <div class="text-center">
@@ -41,7 +41,7 @@
         <div class="col-md-12 text-center">
             <?=implode(', ', divisores($num))?>
         </div>
-    <?}?>
+    <?php }?>
 </div>
 
-<?include_once "rodape.php"?>
+<?php include_once "rodape.php"?>

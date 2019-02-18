@@ -1,4 +1,4 @@
-<?include_once "cabecalho.php"?>
+<?php include_once("cabecalho.php");?>
     <div class="container">
         <div class="col-md-12 text-center">
             <h1>EXERCÍCIOS DE PHP</h1>
@@ -49,4 +49,4 @@
             </ul>
         </div>
     </div>
-<?include_once "rodape.php"?>
+<?php include_once("rodape.php");?>

@@ -1,4 +1,4 @@
-<?include_once "cabecalho.php"?>
+<?php include_once "cabecalho.php"?>
 <div class="container">
     <h3 class="text-center">EXERCÍCIO 06</h3>
     <div class="text-center">
@@ -47,8 +47,8 @@ if(!empty($enviar)) {?>
         <p>Quociente: <?=$resultado["quociente"]?></p>
         <p>Resto: <?=$resultado["resto"]?></p>
     </div>
-<?}?>
+<?php }?>
 
 </div>
 
-<?include_once "rodape.php"?>
+<?php include_once "rodape.php"?>

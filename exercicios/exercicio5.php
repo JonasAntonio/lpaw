@@ -1,4 +1,4 @@
-<?include_once "cabecalho.php"?>
+<?php include_once "cabecalho.php"?>
 <div class="container">
     <h3 class="text-center">EXERCÍCIO 05</h3>
     <div class="text-center">
@@ -44,7 +44,7 @@ if(!empty($enviar)) {?>
     <div class="col-md-12 text-center">
         <?=calcularNotas($nota1, $nota2, $nota3);?>
     </div>
-<?}
+<?php }
 
 function calcularNotas($n1,$n2,$n3) {
     $media = ($n1+$n2+$n3)/3;
@@ -62,4 +62,4 @@ function calcularNotas($n1,$n2,$n3) {
 
 </div>
 
-<?include_once "rodape.php"?>
+<?php include_once "rodape.php"?>
