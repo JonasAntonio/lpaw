@@ -13,32 +13,27 @@
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-
             <div class="collapse navbar-collapse" id="navbarContent">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="exercicio1.php">Exercício 1</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="exercicio2.php">Exercício 2</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="exercicio3.php">Exercício 3</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="exercicio4.php">Exercício 4</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="exercicio5.php">Exercício 5</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="exercicio6.php">Exercício 6</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="exercicio7.php">Exercício 7</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="exercicio8.php">Exercício 8</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Exercícios
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="exercicio1.php">Exercício 1</a>
+                            <a class="dropdown-item" href="exercicio2.php">Exercício 2</a>
+                            <a class="dropdown-item" href="exercicio3.php">Exercício 3</a>
+                            <a class="dropdown-item" href="exercicio4.php">Exercício 4</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="exercicio5.php">Exercício 5</a>
+                            <a class="dropdown-item" href="exercicio6.php">Exercício 6</a>
+                            <a class="dropdown-item" href="exercicio7.php">Exercício 7</a>
+                            <a class="dropdown-item" href="exercicio8.php">Exercício 8</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="exercicio9.php">Exercício 9</a>
+                            <a class="dropdown-item" href="exercicio10.php">Exercício 10</a>
+                            <a class="dropdown-item" href="exercicio12.php">Exercício 11</a>
+                        </div>
                     </li>
                 </ul>
             </div>

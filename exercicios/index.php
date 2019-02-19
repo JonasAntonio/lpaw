@@ -46,6 +46,11 @@
                         Construa um algoritmo que leia o salário de 3 pessoas, escreva o maior valor e a diferença percentual para o menor valor.
                     </li>
                 </a>
+                <a href="exercicio9.php">
+                    <li class="list-group-item list-group-item-action">
+                        Exercício 9
+                    </li>
+                </a>
             </ul>
         </div>
     </div>

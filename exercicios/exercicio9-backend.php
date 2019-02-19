@@ -7,8 +7,6 @@ if(!empty($enviar)) {
 
 }
 
-
-
 function calcular($num) {
     //moedas de 0,01, 0,05, 0,10, 0,25, 0,50, 1,00
     switch($nota){
